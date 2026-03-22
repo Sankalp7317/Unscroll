@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Main Icon: A stylized smartphone with a 'stop' or 'intervention' overlay -->
+    <!-- Safe zone is 66x66 dp, centered (21,21 to 87,87) -->
+
+    <!-- Smartphone Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,26 h32 c3.3,0 6,2.7 6,6 v44 c0,3.3 -2.7,6 -6,6 h-32 c-3.3,0 -6,-2.7 -6,-6 v-44 c0,-3.3 2.7,-6 6,-6 z" />
+
+    <!-- Screen Content (Short form videos symbol: 3 stacked blocks) -->
+    <path
+        android:fillColor="#B2DFDB"
+        android:pathData="M42,32 h24 v10 h-24 z M42,46 h24 v10 h-24 z M42,60 h24 v10 h-24 z" />
+
+    <!-- Unscroll Intervention: A diagonal "Stop" line crossing the screen -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M28,68 L34,74 L80,28 L74,22 Z" />
+
+    <!-- Pause Icon in the middle -->
+    <path
+        android:fillColor="#00796B"
+        android:pathData="M50,48 h3 v12 h-3 z M55,48 h3 v12 h-3 z" />
+
+</vector>
